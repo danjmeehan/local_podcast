@@ -25,12 +25,12 @@
 }
 
 .paragraph {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding-top: 10px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Bitter, serif;
   color: #333;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 21px;
   text-align: center;
   letter-spacing: 0.5px;
   text-indent: 9px;
@@ -63,7 +63,7 @@
   width: 300px;
   border-radius: 3px;
   background-color: #8556fd;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Bitter, serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -72,7 +72,7 @@
 .text-field {
   width: 300px;
   border-radius: 3px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Bitter, serif;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -115,7 +115,8 @@
 }
 
 .heading {
-  font-family: 'PT Sans', sans-serif;
+  margin-top: 15px;
+  font-family: Bitter, serif;
   text-align: center;
 }
 
@@ -135,3 +136,56 @@
 .copyright-text {
   font-family: 'PT Sans', sans-serif;
 }
+
+.heading-2 {
+  font-family: Bitter, serif;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .paragraph {
+    font-size: 16px;
+  }
+  .horizontal-divider {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .heading {
+    margin-top: 0px;
+    font-size: 34px;
+  }
+  .heading-2 {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .paragraph {
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .horizontal-divider {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .heading {
+    margin-top: 20px;
+    font-size: 38px;
+  }
+  .copyright-div {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .copyright-div {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
